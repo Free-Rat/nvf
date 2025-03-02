@@ -17,10 +17,26 @@
             {
               config.vim = {
                 # Enable custom theming options
-                theme.enable = true;
+                theme = {
+                        enable = true;
+                        name = "oxocarbon";
+                        style = "dark";
+                        transparent = true;
+                };
 
                 # Enable Treesitter
-                tree-sitter.enable = true;
+                # tree-sitter.enable = true;
+		languages = {
+			nix = {
+				enable = true;
+				treesitter.enable = true;
+                                lsp.enable = true;
+			};
+			python = {
+				enable = true;
+				treesitter.enable = true;
+			};
+		};
 
                 # Other options will go here. Refer to the config
                 # reference in Appendix B of the nvf manual.
