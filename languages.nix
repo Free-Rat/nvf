@@ -9,6 +9,7 @@
 
       markdown.enable = true;
       gleam.enable = false;
+      ocaml.enable = false;
       csharp.enable = false;
       bash.enable = true;
       clang.enable = false;
@@ -22,7 +23,7 @@
       lua.enable = true;
       zig.enable = false;
       rust = {
-        enable = false;
+        enable = true;
         crates.enable = false;
       };
       nix.enable = true;
