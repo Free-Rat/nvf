@@ -12,7 +12,7 @@
       ocaml.enable = false;
       csharp.enable = false;
       bash.enable = true;
-      clang.enable = false;
+      clang.enable = true;
       css.enable = false;
       html.enable = false;
       sql.enable = false;
@@ -46,6 +46,7 @@
       # otter-nvim.enable = isMaximal;
       # lsplines.enable = isMaximal;
       # nvim-docs-view.enable = isMaximal;
+      trouble.enable = true;
     };
 
     autopairs.nvim-autopairs.enable = true;

@@ -4,7 +4,7 @@
     viAlias = true;
     vimAlias = true;
     spellcheck = {
-      enable = true;
+      enable = false;
     };
     options = {
       tabstop = 4;
