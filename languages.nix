@@ -24,7 +24,7 @@
       zig.enable = false;
       rust = {
         enable = true;
-        crates.enable = false;
+        crates.enable = true;
       };
       nix.enable = true;
       python = {
