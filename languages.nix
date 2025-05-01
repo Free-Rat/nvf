@@ -9,7 +9,7 @@
 
       markdown.enable = true;
       gleam.enable = false;
-      ocaml.enable = true;
+      haskell.enable = true;
       csharp.enable = false;
       bash.enable = true;
       clang.enable = true;
