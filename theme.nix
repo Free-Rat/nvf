@@ -1,8 +1,9 @@
 {
-        config.vim.theme = {
-                enable = true;
-                name = "oxocarbon";
-                style = "dark";
-                transparent = true;
-        };
+  config.vim.theme = {
+    enable = true;
+    name = "nord";
+    # name = "oxocarbon";
+    style = "dark";
+    transparent = true;
+  };
 }
