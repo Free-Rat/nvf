@@ -1,6 +1,11 @@
 {
   config.vim = {
-    useSystemClipboard = true;
+    # useSystemClipboard = true;
+    clipboard = {
+            enable = true;
+            providers.wl-copy.enable = true;
+
+        };
     viAlias = true;
     vimAlias = true;
     spellcheck = {
