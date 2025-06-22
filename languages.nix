@@ -1,8 +1,9 @@
 {
   config.vim = {
     treesitter.context.enable = true;
+    lsp.enable = true;
     languages = {
-      enableLSP = true;
+      # enableLSP = true;
       enableFormat = true;
       enableTreesitter = true;
       enableExtraDiagnostics = true;

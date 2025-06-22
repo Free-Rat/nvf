@@ -8,7 +8,8 @@
       lualine = {
         enable = true;
         # theme = "moonfly";
-        theme = "horizon";
+        # theme = "horizon";
+        theme = "base16";
       };
     };
 
