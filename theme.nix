@@ -5,7 +5,7 @@
     # name = "oxocarbon";
     name = "base16";
     # style = "dark";
-    # transparent = true;
+    transparent = true;
 
     base16-colors = {
       base00 = "#000000";
