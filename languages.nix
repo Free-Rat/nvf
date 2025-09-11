@@ -10,7 +10,7 @@
 
       markdown.enable = true;
       gleam.enable = false;
-      haskell.enable = true;
+      haskell.enable = false;
       csharp.enable = false;
       bash.enable = true;
       clang.enable = true;
@@ -38,7 +38,7 @@
     };
 
     lsp = {
-      formatOnSave = true;
+      formatOnSave = false;
       # lspkind.enable = false;
       # lightbulb.enable = true;
       # lspsaga.enable = false;

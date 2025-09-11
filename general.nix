@@ -3,7 +3,7 @@
     # useSystemClipboard = true;
     clipboard = {
       enable = true;
-      providers.wl-copy.enable = true;
+      # providers.wl-copy.enable = true;
       registers = "unnamedplus";
     };
     viAlias = true;
